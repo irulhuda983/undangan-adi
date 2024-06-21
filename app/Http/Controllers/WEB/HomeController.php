@@ -34,9 +34,9 @@ class HomeController extends Controller
             'background' => [
                 'body' => asset('assets/img/nizar/bg-cover.jpg'),
                 'cover' => $galery[1]['link'],
-                'depan' => $galery[3]['link'],
+                'depan' => asset('assets/img/nizar/bg-depan.jpg'),
                 'savedate' => asset('assets/img/nizar/bg-savedate.jpg'),
-                'kehadiran' => $galery[4]['link'],
+                'kehadiran' => asset('assets/img/nizar/bg-kehadiran.jpg'),
             ],
             'waktu' => [
                 'hari' => 'Sabtu',
@@ -67,7 +67,7 @@ class HomeController extends Controller
             'gallery' => $galery, 
             'maps' => [
                 'link' => 'https://maps.app.goo.gl/Nph9mHambdhtUqvz5',
-                'embed' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15832.20775217046!2d112.24221754999999!3d-7.23491645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e781f8ba7f4d803%3A0x847d45fa952e5bc1!2sBuluplapak%2C%20Kalitengah%2C%20Kec.%20Sugio%2C%20Kabupaten%20Lamongan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1718773910205!5m2!1sid!2sid',
+                'embed' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.128228114349!2d112.2534131!3d-7.226211999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e781fb6a68028a7%3A0xa46247e2eaa9f791!2sJegreg!5e0!3m2!1sid!2sid!4v1718933369197!5m2!1sid!2sid',
             ],
             'rundown' => [
                 'akad' => [
@@ -79,23 +79,30 @@ class HomeController extends Controller
                     'waktu' => 'Siang - Malam',
                     'lokasi' => 'Kediaman Mempelai Pria',
                     'alamat' => 'Dusun Jegreg RT. 003 RW. 001, Ds. Kalitengah Kec. Sugio Kab. Lamongan',
-                    'maps' => 'https://maps.app.goo.gl/Nph9mHambdhtUqvz5',
+                    'maps' => 'https://maps.app.goo.gl/EkxsGkh4URafa7m97',
                     'foto' => asset('assets/img/nizar/bg-akad.jpg'),
                 ],
                 'resepsi' => [
-                    'hari' => 'Selasa',
-                    'tgl' => '02',
+                    'hari' => 'Sabtu',
+                    'tgl' => '06',
                     'bulan' => 'Juli',
                     'tahun' => '2024',
-                    'tanggalLengkap' => '02 Juli 2024',
+                    'tanggalLengkap' => '06 Juli 2024',
                     'waktu' => 'Siang - Malam',
                     'lokasi' => 'Kediaman Mempelai Pria',
                     'alamat' => 'Dusun Jegreg RT. 003 RW. 001, Ds. Kalitengah Kec. Sugio Kab. Lamongan',
-                    'maps' => 'https://maps.app.goo.gl/Nph9mHambdhtUqvz5',
+                    'maps' => 'https://maps.app.goo.gl/EkxsGkh4URafa7m97',
                     'foto' => asset('assets/img/nizar/bg-resepsi.jpg'),
                 ],
             ],
             'bank' => [
+                [
+                    'pemilik' => 'ADI SAPUTRA',
+                    'norek' => '1780003864481',
+                    'bankname' => 'MANDIRI',
+                    'atasnama' => 'AN. ADI SAPUTRA',
+                    'icon' => asset('assets/img/mandiri.png'),
+                ],
                 [
                     'pemilik' => 'ADI SAPUTRA',
                     'norek' => '177601006309503',
